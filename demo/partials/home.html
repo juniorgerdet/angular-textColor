@@ -1,0 +1,121 @@
+
+        <p class="lead">Put a single color by string to any HTML ítem in the background or text; the result is a colors games, fantastic directive for AngularJS
+        <br> <pre><code>bower install angular-textcolor</code></pre>
+        </p>
+        <p style="text-align:center">
+            <a href="https://github.com/juniorgerdet/angular-textColor/archive/master.zip" class="btn md-button blue md-raised"><i class="ion-android-download"></i> Download <small>v0.1</small></a>
+            <a href="https://github.com/juniorgerdet/angular-textColor" class="btn md-button gray md-raised"><i class="ion-social-github"></i> View on GitHub</a>
+          </p>
+        <p class="lead">Configuration </p>
+        <div hljs language="javascript">angular.module('myApp', ['angular-textcolor']);</div>
+
+        <p class="lead">Uses: <br> &middot; adds a unique background-color to the container box based on their text inner; you can activate Material Design to box</p>
+        
+        <div class="row">
+          <div class="col-md-4 inbox-center">
+            <div id="square" class="geometry text-box  inbox-center" angular-textcolor>
+              Square
+            </div>
+          </div>
+          <div class="col-md-4 inbox-center">
+            <div id="circle" class="geometry text-box  inbox-center" angular-textcolor material-design="true">
+              Circle
+            </div>
+          </div>
+          <div class="col-md-4 inbox-center">
+            <div id="rectangle" class="geometry text-box  inbox-center" angular-textcolor material-design="true" to-text="true">
+              Rectangle
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <!-- <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p> -->
+        <p class="lead">Documentation Code: </p>
+
+<div hljs>  <div class="row">
+    <div class="col-md-4 inbox-center">
+      <!-- Without material-design options -->
+      <div id="cuadre-up" class="geometry text-box  inbox-center" angular-textcolor>
+        Cuadre
+      </div>
+    </div>
+    <div class="col-md-4">
+      <!-- With material-design options -->
+      <div id="circle" class="geometry text-box  inbox-center" angular-textcolor material-design="true">
+        Circless
+      </div>
+    </div>
+    <div class="col-md-4 inbox-center">
+      <!-- With material-design options and angular-textcolor applied to text. -->
+      <div id="rectangle" class="geometry text-box  inbox-center" angular-textcolor material-design="true" to-text="true">
+        Rectangle
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <br>
+
+    <p class="lead"> &middot; Applicable to any box (HTML Item) </p>
+    
+
+        <div class="cont-squa">
+          <ul class="squa">
+            <li class="squa-item" angular-textcolor material-design="true">Joropo</li>
+            <li class="squa-item" angular-textcolor material-design="true">Electronic</li>
+            <li class="squa-item" angular-textcolor material-design="true">Rock</li>
+            <li class="squa-item" angular-textcolor material-design="true">Folck</li>
+            <li class="squa-item" angular-textcolor material-design="true">Classic</li>
+            <li class="squa-item" angular-textcolor material-design="true">Ballads</li>
+            <li class="squa-item" angular-textcolor material-design="true">Merengue</li>
+            <li class="squa-item" angular-textcolor material-design="true">Salsa</li>
+          </ul>
+        </div>
+
+        <!-- <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p> -->
+        <p class="lead">Documentation Code: </p>
+
+<div hljs>  <div class="cont-squa">
+    <ul class="squa">
+      <li class="squa-item" angular-textcolor material-design="true">Joropo</li>
+      <li class="squa-item" angular-textcolor material-design="true">Electronic</li>
+      <li class="squa-item" angular-textcolor material-design="true">Rock</li>
+      <li class="squa-item" angular-textcolor material-design="true">Folck</li>
+      <li class="squa-item" angular-textcolor material-design="true">Classic</li>
+      <li class="squa-item" angular-textcolor material-design="true">Ballads</li>
+      <li class="squa-item" angular-textcolor material-design="true">Merengue</li>
+      <li class="squa-item" angular-textcolor material-design="true">Salsa</li>
+    </ul>
+  </div>
+</div>
+
+    <br>
+    
+    <p class="lead">&middot; Besides, you can apply to INPUT or TEXTAREA, being so: </p>
+
+    <form class="form-demo">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Text 1 only background</label>
+        <input type="email" class="form-control input-max" id="text1" placeholder="Enter Text 1" angular-textcolor>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Text 2 with "to-text" options</label>
+        <input type="text" class="form-control input-max" id="text2" placeholder="Enter Text 2" angular-textcolor to-text="true">
+      </div>
+    </form>
+    <p class="lead">Documentation Code: </p>
+
+<div hljs>  <form class="form-demo">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Text 1 only background</label>
+      <!-- Applied to background --> 
+      <input type="email" class="form-control input-max" id="text1" placeholder="Enter Text 1" angular-textcolor>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Text 2 with "to-text" options</label>
+      <!-- Applied to text --> 
+      <input type="text" class="form-control input-max" id="text2" placeholder="Enter Text 2" angular-textcolor to-text="true">
+    </div>
+  </form>
+</div>

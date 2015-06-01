@@ -1,0 +1,155 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="" ng-app="myApp"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title> Angular textColor</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Angular textColor"/>
+        <meta property="og:description" content="A module #angular that adds color to text or to background of a HTML Item through its inside text" />
+        <meta property="og:url" content="http://juniorgerdet.github.io/angular-textColor/" />
+        <!-- <meta property="og:image" content="http://example.com/foo.jpg" /> -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css">
+ 
+        <link rel="stylesheet" href="styles/bootstrap/bootstrap-theme.min.css">
+        <link href="styles/carousel.css" rel="stylesheet">
+       <link rel="stylesheet" href="styles/main.css"/>
+	     <link rel="stylesheet" href="bower_components/highlightjs/styles/github.css"/>
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+
+
+  <!-- Custom styles for this template -->
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script src="scripts/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+</head>
+<body>
+	       <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+     <!-- /container -->        
+    
+      <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#home">angular-textColor</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li> -->
+              </ul>
+              <span class="copy-head">
+                Copyright &copy; 2015 Junior Gerdet &middot;
+              </span>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+  <div ng-controller='HomeCtrl'>  
+    <div class="container">  
+      <div class="jumbotron">
+	       <div ng-view></div>
+      </div>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://goo.gl/K1M6SF" data-text="A module #angular that adds color to text or to background of a HTML Item through its inside text" data-via="juniorgerdet" data-hashtags="angularTextColor">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+      <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+      <script type="IN/Share" data-url="http://juniorgerdet.github.io/angular-textColor/" data-counter="right"></script>
+      <!-- Place this tag where you want the button to render. -->
+      <a class="github-button" href="https://github.com/juniorgerdet/angular-textColor" data-icon="octicon-star" data-count-href="/juniorgerdet/angular-textColor/stargazers" data-count-api="/repos/juniorgerdet/angular-textColor#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star juniorgerdet/angular-textColor on GitHub">Star</a>
+    </div>
+
+
+</div>
+   <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Case of use</h2>
+          <p>Improve user experience by separating sections in different colors according to your content and any other use that can give your imagination</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-6">
+          <h2>Creditos</h2>
+          <p>AngularJS, Google Material Design, Boostrap, GitHub Pages, Ionicons of Ionic Framework and myself</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <hr class="featurette-divider">
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow89.js"></script>
+      <noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+</p>
+        <p> Copyright &copy; 2015 Junior Gerdet &middot; </p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+  <script>window.jQuery || document.write('<script src="scripts/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
+  <!-- Place this tag right after the last button or just before your close body tag. -->
+  
+  <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+  <script src="scripts/vendor/jquery-1.11.2.min.js"></script>
+  <script src="scripts/vendor/bootstrap.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular-touch/angular-touch.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
+  <script type="text/javascript" src="bower_components/highlightjs/highlight.min.js"></script>
+  <script type="text/javascript" src="bower_components/highlightjs/angular-highlightjs.min.js"></script>
+  <script type="text/javascript" src="scripts/angular-textcolor.min.js"></script>
+
+  <script type="text/javascript" src="scripts/main.js"></script>
+  <script type="text/javascript" src="scripts/app.js"></script>
+	<script type="text/javascript" src="scripts/controllers/HomeCtrl.js"></script>
+</body>
+</html>
