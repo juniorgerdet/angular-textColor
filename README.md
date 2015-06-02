@@ -24,7 +24,7 @@ See `bower.json` and `index.html` in the `gh-pages` branch for a full list / mor
 See the `gh-pages` branch, files `bower.json` and `index.html` for a full example.
 
 ## Documentation
-Full documentation for the project is available at [http://juniorgerdet.github.io/angular-textColor/][docs].
+Full documentation for the project is available at [http://juniorgerdet.github.io/angular-textColor/].
 
 
 ## Contributing and issues
@@ -38,4 +38,4 @@ If you find any bugs you can opening issues  and contribute to the solution. Bes
 >>>>>>> bf44ced4466f8a52335f3a0e7d296acca770b745
 ## Contact
 
-You may also want to follow the [author][juniorgerdet] on Twitter.
+You may also want to follow the [author](https://twitter.com/juniorgerdet) on Twitter.
