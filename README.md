@@ -1,6 +1,6 @@
 # Angular Text Color
 
-Put a single color by string to any HTML ítem; fantastic directive for AngularJS
+   Put a single color by string to any HTML ítem; fantastic directive for AngularJS
 
 [TODO - brief summary]
 
