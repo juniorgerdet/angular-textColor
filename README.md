@@ -31,8 +31,11 @@ Full documentation for the project is available at [http://juniorgerdet.github.i
 
 If you find any bugs you can opening issues  and contribute to the solution. Besides,  the  recommendations and improvements are welcome. 
 
+<<<<<<< HEAD
 ## Changelog
 
+=======
+>>>>>>> bf44ced4466f8a52335f3a0e7d296acca770b745
 ## Contact
 
 You may also want to follow the [author][juniorgerdet] on Twitter.
