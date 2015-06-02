@@ -33,6 +33,10 @@ If you find any bugs you can opening issues  and contribute to the solution. Bes
 
 ## Changelog
 
+## License
+
+See the [LICENSE](https://github.com/juniorgerdet/angular-textColor/blob/master/LICENSE) file.
+
 ## Contact
 
 You may also want to follow the [author](https://twitter.com/juniorgerdet) on Twitter.
